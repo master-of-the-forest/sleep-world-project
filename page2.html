@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <title>Sleep World | Sleep Tracker</title>
+    </head>
+    <body>
+
+        <div class="menu">
+            <a href="page1.html">Home</a>
+            <a href="page2.html">Sleep Tracker</a>
+            <a href="page3.html">Resources</a>
+            <a href="page4.html">Eye Masks</a>
+        </div>
+
+        <div class="contentBody">
+            <h1>Sleep Tracker</h1>
+
+            <form action="formhandlingurl" method="post">
+                <fieldset>
+                    <legend>Log Sleep</legend>
+
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+                    <div>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="restful" name="restful" value="restful">
+                        <label for="restful">Restful Sleep?</label>
+                    </div>
+
+                    <div>
+                        <label for="notes">Notes:</label>
+                        <textarea id="notes" name="notes"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+
+        </div>
+    </body>
+</html>

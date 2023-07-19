@@ -1,0 +1,73 @@
+* {
+    background-color: #3d003d;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto 20px;
+}
+
+.contentBody {
+    margin: auto 225px;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #efbbff;
+}
+
+.puppy {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    display: block;
+    margin: auto auto auto;
+    width: fit-content;
+}
+
+input[type="text"] {
+  background-color: #870087;
+}
+
+input[type="date"] {
+  background-color: #870087;
+}
+
+#notes {
+  background-color: #870087;
+}
+
+legend {
+    text-align: center;
+}
+
+.eyeMaskGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.maskImage {
+    width: 250px;
+    height: auto;
+}
